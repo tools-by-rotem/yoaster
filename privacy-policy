@@ -1,0 +1,31 @@
+Privacy Policy for Yoaster
+
+# Effective Date: November 1st 2024
+
+This Privacy Policy describes how your personal information is collected, used, and shared when you use the Yoaster Chrome extension (the “Extension”).
+
+# Information We Collect
+When you use the Extension, we do not collect any personal information about you. The Extension operates solely on your device and does not send any data to external servers.
+
+# Use of the Extension
+Yoaster is designed to enhance your browsing experience by decoding Yoast Sitemaps and displaying user-friendly URLs. The Extension modifies the content of the web pages you visit in real-time, allowing for a more readable format of the URLs.
+
+# Permissions
+To provide its functionality, the Extension requires the following permissions:
+
+**Storage Permission**
+Allows the Extension to store user preferences and settings locally on your device.
+Host Permission: Enables the Extension to access and modify the content of the web pages you visit, specifically XML Sitemap pages, to perform its decoding functions.
+**Remote Code Permission** 
+Grants the Extension the ability to load a remote button for donations, which is used to support the development and maintenance of the Extension.
+**Data Security**
+Although we do not collect any personal data, we take reasonable measures to protect the data you choose to share with us (e.g., through the donation button) from unauthorized access and misuse.
+
+# Third-Party Services
+The Extension may include links to third-party websites or services. We do not control these websites and are not responsible for their content or privacy practices. We encourage you to review the privacy policies of any third-party sites you visit.
+
+# Changes to This Privacy Policy
+We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new policy on this page.
+
+# Contact Us
+If you have any questions about this Privacy Policy, please contact us at rotemkanon.dev@gmail.com.
