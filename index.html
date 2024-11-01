@@ -3,141 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yoaster - Official Page</title>
+    <title>Yoaster - URL Decoder for Yoast Sitemaps</title>
     <style>
+        /* הקוד CSS כפי שהיה לפני כן */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f2f5;
+            background-color: #eef2f5;
+            color: #333;
+            line-height: 1.6;
         }
-
         header {
-            background: linear-gradient(90deg, #0077cc, #005999);
+            background: linear-gradient(90deg, #007bff, #00d4ff);
             color: white;
-            padding: 30px;
+            padding: 40px 20px;
             text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-bottom: 5px solid #0056b3;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-
         h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 3.5em;
+            letter-spacing: 1.5px;
         }
-
-        h2 {
-            margin: 10px 0 20px;
-            font-weight: normal;
-        }
-
-        main {
-            max-width: 900px;
+        .container {
+            max-width: 800px;
             margin: 20px auto;
             padding: 30px;
             background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
         }
-
-        h3 {
-            color: #0077cc;
+        .container:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #007bff;
+            font-size: 2.5em;
             margin-top: 20px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
         }
-
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-            padding-left: 10px;
+        p {
+            margin: 15px 0;
         }
-
-        #faq h4 {
-            margin: 10px 0 5px;
+        .faq {
+            margin: 20px 0;
+            padding: 15px;
+            background: #e9ecef;
+            border-radius: 8px;
         }
-
-        #donate {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            border-top: 1px solid #e0e0e0;
+        .faq p {
+            margin: 5px 0;
         }
-
-        #donate img {
-            width: 200px; /* Adjust size as needed */
+        .faq-question {
+            cursor: pointer;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .faq-answer {
+            display: none;
+            margin-top: 10px;
+        }
+        .donate-button {
+            display: inline-block;
+            margin-top: 30px;
+            border: none;
+            background: transparent;
             cursor: pointer;
             transition: transform 0.3s;
+            text-align: center;
         }
-
-        #donate img:hover {
-            transform: scale(1.05);
+        .donate-button img {
+            width: 200px;
+            height: auto;
         }
-
+        .donate-button:hover {
+            transform: scale(1.1);
+        }
         footer {
             text-align: center;
             padding: 20px;
-            background: #0077cc;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2em;
-            }
-
-            main {
-                padding: 20px;
-            }
+            background: #f1f1f1;
+            border-top: 1px solid #ccc;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Yoaster</h1>
-        <h2>Decode URLs in Yoast Sitemaps, Instantly!</h2>
+        <h1>Welcome to Yoaster!</h1>
+        <p>Your friendly URL decoder for Yoast Sitemaps</p>
     </header>
-    <main>
-        <section id="description">
-            <p>Ever found yourself squinting at those long, encoded URLs in Yoast XML Sitemaps? Say goodbye to the guesswork with <strong>Yoaster</strong>! This handy Chrome extension instantly decodes URLs directly in the browser, transforming every cryptic character into a readable, friendly link. Designed to work seamlessly on pages titled "XML Sitemap," Yoaster makes navigating sitemaps clearer, more intuitive, and... just a little bit fun.</p>
-        </section>
+    <div class="container">
+        <h2>Transform Your Sitemap Experience</h2>
+        <p>Ever found yourself squinting at those long, encoded URLs in Yoast's XML Sitemaps? Say goodbye to the guesswork with Yoaster! This handy Chrome extension instantly decodes URLs directly in the browser, turning every cryptic character into a readable, friendly link. Designed to work like magic on pages titled "XML Sitemap", Yoaster transforms the experience, making it clear, intuitive, and... just a little bit fun.</p>
+        <h2>Get Yoaster today!</h2>
+        <p>Make sitemaps a breeze to navigate!</p>
         
-        <section id="features">
-            <h3>Features</h3>
-            <ul>
-                <li>Instant decoding of URLs in Yoast sitemaps</li>
-                <li>User-friendly interface for easy navigation</li>
-                <li>Seamless integration into your browser experience</li>
-                <li>Works on XML Sitemap pages</li>
-                <li>Fun and intuitive design</li>
-            </ul>
-        </section>
+        <h2>Frequently Asked Questions (FAQ)</h2>
+        <div class="faq">
+            <p class="faq-question">Q: How does Yoaster work?</p>
+            <p class="faq-answer">A: Yoaster decodes encoded URLs in Yoast's XML Sitemaps directly in your browser.</p>
+            <p class="faq-question">Q: Is Yoaster free?</p>
+            <p class="faq-answer">A: Yes! Yoaster is completely free to use.</p>
+            <p class="faq-question">Q: On which pages can I use Yoaster?</p>
+            <p class="faq-answer">A: Yoaster works on Yoast's Sitemaps".</p>
+            <p class="faq-question">Q: How can I provide feedback?</p>
+            <p class="faq-answer">A: We'd love to hear from you! Please reach out via our support page.</p>
+        </div>
         
-        <section id="faq">
-            <h3>Frequently Asked Questions</h3>
-            <h4>Q: How do I install Yoaster?</h4>
-            <p>A: You can install Yoaster directly from the Chrome Web Store. Just search for "Yoaster" and click "Add to Chrome."</p>
-
-            <h4>Q: Is Yoaster free to use?</h4>
-            <p>A: Yes, Yoaster is completely free to use!</p>
-
-            <h4>Q: Which browsers are compatible with Yoaster?</h4>
-            <p>A: Yoaster is designed specifically for Google Chrome and is not compatible with other browsers at this time.</p>
-
-            <h4>Q: What if I have issues with the extension?</h4>
-            <p>A: If you encounter any problems, please contact our support team via the Chrome Web Store page.</p>
-        </section>
-        
-        <section id="donate">
-            <h3>Support Us</h3>
-            <p>If you enjoy using Yoaster and want to support our development, consider buying us a coffee!</p>
-            <a href="https://buymeacoffee.com/rotemkanon" target="_blank">
-                <img src="https://www.buymeacoffee.com/assets/img/homepage/white_img.svg" alt="Buy Me a Coffee" />
-            </a>
-        </section>
-    </main>
+        <a class="donate-button" href="https://buymeacoffee.com/rotemkanon" target="_blank">
+            <img src="https://cdn.debug.press/wp-content/uploads/2023/06/buy_me_a_coffee.png.webp" alt="Buy Me a Coffee">
+        </a>
+    </div>
     <footer>
         <p>&copy; 2024 Yoaster. All rights reserved.</p>
     </footer>
+    <script>
+        // JavaScript to toggle FAQ answers
+        const questions = document.querySelectorAll('.faq-question');
+
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'none' || answer.style.display === '' ? 'block' : 'none';
+            });
+        });
+    </script>
 </body>
 </html>
